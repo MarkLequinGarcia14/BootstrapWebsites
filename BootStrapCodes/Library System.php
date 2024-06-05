@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<title>Mark Garcia lang Malakas</title>
+<meta charset="UTF-8">
+oo=['<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSwCiEp56b0cx6y80Rwzc2WCNDsMWxdvWDjfXq0YNg&amp;s" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p><?php echo "Home" ?></p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-book w3-xxlarge"></i>
+    <p><?php echo "Books" ?></p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-users w3-xxlarge"></i>
+    <p><?php echo "Creator"?></p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p><?php echo "CONTACT" ?></p>
+  </a>
+</nav>
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">Home</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">Books</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">Creator</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+  <!-- Lining Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <!-- Code for Book Choices -->
+    <!-- First -->
+    <h3 class="w3-padding-16 w3-text-light-grey">Book Choices:</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Title: "To Kill a Mockingbird"</li>
+          <li class="w3-padding-16">Author: Harper Lee</li>
+          <li class="w3-padding-16">Genre: Fiction, Southern Gothic</li>
+          <li class="w3-padding-16">Publication Year: 1960</li>
+          <li class="w3-padding-16">ISBN: 978-0-06-112008-4</li>
+          <li class="w3-padding-16">Publisher: HarperCollins</li>
+          <li class="w3-padding-16">Number of Pages: 281</li>
+          <li class="w3-padding-16">Brief Description: "To Kill a Mockingbird" is a classic novel set in the American South
+            during the 1930s. It follows the story of Scout Finch, a young girl, and her father, Atticus Finch, a lawyer who
+            defends an African American man wrongly accused of rape. The novel deal with themes of racial injustice, morality,
+            and the loss of innocence.
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+          <button onclick="window.location.href='https://www.facebook.com/profile.php?id=100087588745459&mibextid=ZbWKwL';" class="w3-button w3-white w3-padding-large w3-hover-black">Visit the Book</button>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Second -->
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Title: "To Kill a Mockingbird"</li>
+          <li class="w3-padding-16">Author: Harper Lee</li>
+          <li class="w3-padding-16">Genre: Fiction, Southern Gothic</li>
+          <li class="w3-padding-16">Publication Year: 1960</li>
+          <li class="w3-padding-16">ISBN: 978-0-06-112008-4</li>
+          <li class="w3-padding-16">Publisher: HarperCollins</li>
+          <li class="w3-padding-16">Number of Pages: 281</li>
+          <li class="w3-padding-16">Brief Description: "To Kill a Mockingbird" is a classic novel set in the American South
+            during the 1930s. It follows the story of Scout Finch, a young girl, and her father, Atticus Finch, a lawyer who
+            defends an African American man wrongly accused of rape. The novel deal with themes of racial injustice, morality,
+            and the loss of innocence.
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+          <button onclick="window.location.href='https://www.facebook.com/profile.php?id=100087588745459&mibextid=ZbWKwL';" class="w3-button w3-white w3-padding-large w3-hover-black">Visit the Book</button>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Third -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Title: "To Kill a Mockingbird"</li>
+          <li class="w3-padding-16">Author: Harper Lee</li>
+          <li class="w3-padding-16">Genre: Fiction, Southern Gothic</li>
+          <li class="w3-padding-16">Publication Year: 1960</li>
+          <li class="w3-padding-16">ISBN: 978-0-06-112008-4</li>
+          <li class="w3-padding-16">Publisher: HarperCollins</li>
+          <li class="w3-padding-16">Number of Pages: 281</li>
+          <li class="w3-padding-16">Brief Description: "To Kill a Mockingbird" is a classic novel set in the American South
+            during the 1930s. It follows the story of Scout Finch, a young girl, and her father, Atticus Finch, a lawyer who
+            defends an African American man wrongly accused of rape. The novel deal with themes of racial injustice, morality,
+            and the loss of innocence.
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+          <button onclick="window.location.href='https://www.facebook.com/profile.php?id=100087588745459&mibextid=ZbWKwL';" class="w3-button w3-white w3-padding-large w3-hover-black">Visit the Book</button>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Fourth -->
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Title: "To Kill a Mockingbird"</li>
+          <li class="w3-padding-16">Author: Harper Lee</li>
+          <li class="w3-padding-16">Genre: Fiction, Southern Gothic</li>
+          <li class="w3-padding-16">Publication Year: 1960</li>
+          <li class="w3-padding-16">ISBN: 978-0-06-112008-4</li>
+          <li class="w3-padding-16">Publisher: HarperCollins</li>
+          <li class="w3-padding-16">Number of Pages: 281</li>
+          <li class="w3-padding-16">Brief Description: "To Kill a Mockingbird" is a classic novel set in the American South
+            during the 1930s. It follows the story of Scout Finch, a young girl, and her father, Atticus Finch, a lawyer who
+            defends an African American man wrongly accused of rape. The novel deal with themes of racial injustice, morality,
+            and the loss of innocence.
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+          <button onclick="window.location.href='https://www.facebook.com/profile.php?id=100087588745459&mibextid=ZbWKwL';" class="w3-button w3-white w3-padding-large w3-hover-black">Visit the Book</button>
+          </li>
+        </ul>
+      </div>
+
+            <!-- Fifth -->
+      <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Title: "To Kill a Mockingbird"</li>
+          <li class="w3-padding-16">Author: Harper Lee</li>
+          <li class="w3-padding-16">Genre: Fiction, Southern Gothic</li>
+          <li class="w3-padding-16">Publication Year: 1960</li>
+          <li class="w3-padding-16">ISBN: 978-0-06-112008-4</li>
+          <li class="w3-padding-16">Publisher: HarperCollins</li>
+          <li class="w3-padding-16">Number of Pages: 281</li>
+          <li class="w3-padding-16">Brief Description: "To Kill a Mockingbird" is a classic novel set in the American South
+            during the 1930s. It follows the story of Scout Finch, a young girl, and her father, Atticus Finch, a lawyer who
+            defends an African American man wrongly accused of rape. The novel deal with themes of racial injustice, morality,
+            and the loss of innocence.
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+          <button onclick="window.location.href='https://www.facebook.com/profile.php?id=100087588745459&mibextid=ZbWKwL';" class="w3-button w3-white w3-padding-large w3-hover-black">Visit the Book</button>
+          </li>
+        </ul>
+      </div>
+
+            <!-- Six -->
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Title: "To Kill a Mockingbird"</li>
+          <li class="w3-padding-16">Author: Harper Lee</li>
+          <li class="w3-padding-16">Genre: Fiction, Southern Gothic</li>
+          <li class="w3-padding-16">Publication Year: 1960</li>
+          <li class="w3-padding-16">ISBN: 978-0-06-112008-4</li>
+          <li class="w3-padding-16">Publisher: HarperCollins</li>
+          <li class="w3-padding-16">Number of Pages: 281</li>
+          <li class="w3-padding-16">Brief Description: "To Kill a Mockingbird" is a classic novel set in the American South
+            during the 1930s. It follows the story of Scout Finch, a young girl, and her father, Atticus Finch, a lawyer who
+            defends an African American man wrongly accused of rape. The novel deal with themes of racial injustice, morality,
+            and the loss of innocence.
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+          <button onclick="window.location.href='https://www.facebook.com/profile.php?id=100087588745459&mibextid=ZbWKwL';" class="w3-button w3-white w3-padding-large w3-hover-black">Visit the Book</button>
+          </li>
+        </ul>
+      </div>
+
+            <!-- Seven -->
+      <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Title: "To Kill a Mockingbird"</li>
+          <li class="w3-padding-16">Author: Harper Lee</li>
+          <li class="w3-padding-16">Genre: Fiction, Southern Gothic</li>
+          <li class="w3-padding-16">Publication Year: 1960</li>
+          <li class="w3-padding-16">ISBN: 978-0-06-112008-4</li>
+          <li class="w3-padding-16">Publisher: HarperCollins</li>
+          <li class="w3-padding-16">Number of Pages: 281</li>
+          <li class="w3-padding-16">Brief Description: "To Kill a Mockingbird" is a classic novel set in the American South
+            during the 1930s. It follows the story of Scout Finch, a young girl, and her father, Atticus Finch, a lawyer who
+            defends an African American man wrongly accused of rape. The novel deal with themes of racial injustice, morality,
+            and the loss of innocence.
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+          <button onclick="window.location.href='https://www.facebook.com/profile.php?id=100087588745459&mibextid=ZbWKwL';" class="w3-button w3-white w3-padding-large w3-hover-black">Visit the Book</button>
+          </li>
+        </ul>
+      </div>
+
+            <!-- Eight -->
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Title: "To Kill a Mockingbird"</li>
+          <li class="w3-padding-16">Author: Harper Lee</li>
+          <li class="w3-padding-16">Genre: Fiction, Southern Gothic</li>
+          <li class="w3-padding-16">Publication Year: 1960</li>
+          <li class="w3-padding-16">ISBN: 978-0-06-112008-4</li>
+          <li class="w3-padding-16">Publisher: HarperCollins</li>
+          <li class="w3-padding-16">Number of Pages: 281</li>
+          <li class="w3-padding-16">Brief Description: "To Kill a Mockingbird" is a classic novel set in the American South
+            during the 1930s. It follows the story of Scout Finch, a young girl, and her father, Atticus Finch, a lawyer who
+            defends an African American man wrongly accused of rape. The novel deal with themes of racial injustice, morality,
+            and the loss of innocence.
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+          <button onclick="window.location.href='https://www.facebook.com/profile.php?id=100087588745459&mibextid=ZbWKwL';" class="w3-button w3-white w3-padding-large w3-hover-black">Visit the Book</button>
+          </li>
+        </ul>
+      </div>
+
+            <!-- Nine -->
+      <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Title: "To Kill a Mockingbird"</li>
+          <li class="w3-padding-16">Author: Harper Lee</li>
+          <li class="w3-padding-16">Genre: Fiction, Southern Gothic</li>
+          <li class="w3-padding-16">Publication Year: 1960</li>
+          <li class="w3-padding-16">ISBN: 978-0-06-112008-4</li>
+          <li class="w3-padding-16">Publisher: HarperCollins</li>
+          <li class="w3-padding-16">Number of Pages: 281</li>
+          <li class="w3-padding-16">Brief Description: "To Kill a Mockingbird" is a classic novel set in the American South
+            during the 1930s. It follows the story of Scout Finch, a young girl, and her father, Atticus Finch, a lawyer who
+            defends an African American man wrongly accused of rape. The novel deal with themes of racial injustice, morality,
+            and the loss of innocence.
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+          <button onclick="window.location.href='https://www.facebook.com/profile.php?id=100087588745459&mibextid=ZbWKwL';" class="w3-button w3-white w3-padding-large w3-hover-black">Visit the Book</button>
+          </li>
+        </ul>
+      </div>
+
+            <!-- Ten -->
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Title: "To Kill a Mockingbird"</li>
+          <li class="w3-padding-16">Author: Harper Lee</li>
+          <li class="w3-padding-16">Genre: Fiction, Southern Gothic</li>
+          <li class="w3-padding-16">Publication Year: 1960</li>
+          <li class="w3-padding-16">ISBN: 978-0-06-112008-4</li>
+          <li class="w3-padding-16">Publisher: HarperCollins</li>
+          <li class="w3-padding-16">Number of Pages: 281</li>
+          <li class="w3-padding-16">Brief Description: "To Kill a Mockingbird" is a classic novel set in the American South
+            during the 1930s. It follows the story of Scout Finch, a young girl, and her father, Atticus Finch, a lawyer who
+            defends an African American man wrongly accused of rape. The novel deal with themes of racial injustice, morality,
+            and the loss of innocence.
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+          <button onclick="window.location.href='https://www.facebook.com/profile.php?id=100087588745459&mibextid=ZbWKwL';" class="w3-button w3-white w3-padding-large w3-hover-black">Visit the Book</button>
+          </li>
+        </ul>
+      </div>
+    <!-- End of the Code for Booking Choices -->
+    </div>
+  
+    <!-- Follow Us -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://code.visualstudio.com/" target="_blank" class="w3-hover-text-green">Visual Studio Code</a> and <a href="https://www.facebook.com/profile.php?id=100087588745459&mibextid=ZbWKwL" target="_blank" class="w3-hover-text-green">Coder</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
